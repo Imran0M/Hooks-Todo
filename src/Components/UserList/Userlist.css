@@ -1,0 +1,67 @@
+.contain{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top:25px ;
+}
+.card-container{
+    background-color: aliceblue;
+    color: black;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.butto{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    justify-content: flex-end;
+
+}
+.edit{
+    background-color: blue;
+    color: antiquewhite;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.delete{
+    background-color: red;
+    color: antiquewhite;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.filters{
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.option-style{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 4px;
+    border: none;
+    padding: 2px;
+}
+
+/* todo conatainer */
+.todo_containers{
+    display: flex;
+    justify-content: space-evenly;
+}
+.filterButton{
+    background-color: orange;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+
+}

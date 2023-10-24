@@ -1,0 +1,28 @@
+.app-name{
+    color: green;
+    text-align: center;
+    margin: 20px 0px;
+}
+.input-containers{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0px;
+}
+.input-container{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: black;
+    width: 15rem;
+    border: none;
+    padding: 5px;
+}
+.button{
+    background-color: green;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    
+}
