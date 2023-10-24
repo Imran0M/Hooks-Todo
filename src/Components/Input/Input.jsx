@@ -17,6 +17,8 @@ function Input(props) {
     console.log(newUser)
     console.log([...props.datas, newUser])
     props.setDatas([...props.datas, newUser])
+    setName('')
+    setDescription('')
 
   }
   return (
@@ -24,10 +26,10 @@ function Input(props) {
       <h3 className='app-name'>My Todos</h3>
       <div className='input-containers'>
         <div>
-          <input onChange={(event) => setName(event.target.value)} className='input-container' type='name' placeholder='Name' />
+          <input  value={name} onChange={(event) => setName(event.target.value)} className='input-container' type='name' placeholder='Name' />
         </div>
         <div >
-          <input onChange={(event) => setDescription(event.target.value)} className='input-container' type='name' placeholder='Description' />
+          <input value={description} onChange={(event) => setDescription(event.target.value)} className='input-container' type='name' placeholder='Description' />
         </div>
         <div>
           <button onClick={handleForm} className='button'>Add Todo</button>
