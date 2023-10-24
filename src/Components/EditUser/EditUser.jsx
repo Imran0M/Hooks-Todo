@@ -1,6 +1,10 @@
 import React from 'react'
 
-function EditUser() {
+function EditUser(props) {
+    function editHandler(){
+
+    }
+
   return (
    
          <div className='input-containers'>
@@ -11,7 +15,7 @@ function EditUser() {
           <input onChange={(event) => setDescription(event.target.value)} className='input-container' type='name' placeholder='Description' />
         </div>
         <div>
-          <button onClick={handleForm} className='button'>Add Todo</button>
+          <button onClick={editHandler} className='button'>Update</button>
         </div>
     </div>
   )

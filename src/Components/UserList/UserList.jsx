@@ -33,7 +33,7 @@ function UserList(props) {
                         </select>
                     </span>
                     <div className='butto'>
-                        <button className='edit'>Edit</button>
+                        <button onClick={()=>editHandler(items.id)} className='edit'>Edit</button>
                         <button onClick={()=>deleteHandler(items.id)}className='delete'>Delete</button>
                     </div>
                 </div>
